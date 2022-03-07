@@ -3,7 +3,7 @@
  * @Author: yangyb
  * @Date: 2022-01-14 10:01:43
  * @LastEditors: yangyb
- * @LastEditTime: 2022-02-18 14:13:50
+ * @LastEditTime: 2022-03-07 17:17:29
  */
 import { resolve } from 'path';
 import moduleAlias from 'module-alias';
@@ -18,6 +18,8 @@ const userInfo = {
 }
 
 const user = check(userInfo);
+
+console.log('process :>> ', process.env.APP_ENV)
 
 // const arr = user.cuteGirlToSimilarArray();
 // console.log('arr :>> ', arr);
